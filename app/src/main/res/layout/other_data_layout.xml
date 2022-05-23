@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/input_layout_school_origin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <AutoCompleteTextView
+            android:id="@+id/input_school_origin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:inputType="textCapCharacters"
+            android:hint="Escuela de procedencia" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tiene hermano MAYOR en edad escolar" />
+
+    <lib.kingja.switchbutton.SwitchMultiButton
+        android:id="@+id/has_brother_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="14dp"
+        app:selectedColor="@color/colorPrimaryDark"
+        app:selectedTab="0"
+        app:strokeRadius="5dp"
+        app:switchTabs="@array/yes_no_swith_tabs"
+        app:strokeWidth="1dp"
+        app:textSize="14sp" />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="¿Pertenece a una Étnia?" />
+
+    <lib.kingja.switchbutton.SwitchMultiButton
+        android:id="@+id/belongs_ethnic_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="14dp"
+        app:selectedColor="@color/colorPrimaryDark"
+        app:selectedTab="0"
+        app:strokeRadius="5dp"
+        app:switchTabs="@array/yes_no_swith_tabs"
+        app:strokeWidth="1dp"
+        app:textSize="14sp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/input_layout_belongs_ethnic_group_observation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/input_belongs_ethnic_group_observation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nombre de la Étnia" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="¿Tiene problemas de salud?" />
+
+    <lib.kingja.switchbutton.SwitchMultiButton
+        android:id="@+id/has_health_problems"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="14dp"
+        app:selectedColor="@color/colorPrimaryDark"
+        app:selectedTab="0"
+        app:strokeRadius="5dp"
+        app:switchTabs="@array/yes_no_swith_tabs"
+        app:strokeWidth="1dp"
+        app:textSize="14sp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/input_layout_has_health_problems_observation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/input_has_health_problems_observation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Describa los problemas de salud" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="¿Tiene problemas legales?" />
+
+    <lib.kingja.switchbutton.SwitchMultiButton
+        android:id="@+id/has_legal_problems"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="14dp"
+        app:selectedColor="@color/colorPrimaryDark"
+        app:selectedTab="0"
+        app:strokeRadius="5dp"
+        app:switchTabs="@array/yes_no_swith_tabs"
+        app:strokeWidth="1dp"
+        app:textSize="14sp" />
+
+        <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/input_layout_has_legal_problems_observation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/input_has_legal_problems_observation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Describa los problemas legales" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/lbl_highest_educ_mother"
+        android:hint="Máximo nivel educativo alcanzado de la madre o tutor" />
+
+    <Spinner
+        android:id="@+id/high_educ_level_mother_select"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/blue_outline"
+        android:popupBackground="@drawable/blue_outline_white_brackground"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/lbl_highest_educ_father"
+        android:hint="Máximo nivel educativo alcanzado del padre o tutor" />
+
+    <Spinner
+        android:id="@+id/high_educ_level_father_select"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/blue_outline"
+        android:popupBackground="@drawable/blue_outline_white_brackground"/>
+
+</LinearLayout>

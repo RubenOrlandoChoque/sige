@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_alignParentLeft="true"
+            android:layout_toLeftOf="@+id/clean_student_address"
+            android:layout_toStartOf="@+id/clean_student_address"
+            android:id="@+id/input_layout_domicilio"
+            android:layout_width="match_parent"
+            android:background="@color/cardview_light_background"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/input_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Domicilio / Barrio" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <ImageButton
+            android:foregroundGravity="center"
+            android:src="@drawable/ic_baseline_delete_24"
+            android:layout_alignParentRight="true"
+            android:id="@+id/clean_student_address"
+            android:background="@drawable/button_bg_rounded_corner"
+            android:textColor="@color/white"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:layout_height="50dp"
+            android:layout_width="wrap_content"
+            android:contentDescription="copy"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/input_layout_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <AutoCompleteTextView
+            android:id="@+id/input_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:inputType="text"
+            android:nextFocusDown="@id/input_phone_number"
+            android:nextFocusRight="@id/input_phone_number"
+            android:hint="Localidad/Municipio del Domicilio" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/input_layout_phone_number"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:background="@color/background_phone"
+            android:layout_toLeftOf="@id/layout_phone_type_1">
+
+            <EditText
+                android:id="@+id/input_phone_number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Teléfono 1"
+                android:maxLength="13"
+                android:nextFocusDown="@id/phone_type1_select"
+                android:inputType="phone" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_phone_type_1"
+            android:layout_width="156dp"
+            android:layout_height="60dp"
+            android:layout_alignParentRight="true"
+            android:background="@color/background_phone"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Tipo (Fijo, Cel...)"
+                android:textSize="13dp"/>
+
+            <Spinner
+                android:id="@+id/phone_type1_select"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:popupBackground="@drawable/blue_outline_white_brackground"/>
+        </LinearLayout>
+
+<!--        <com.google.android.material.textfield.TextInputLayout-->
+<!--            android:id="@+id/input_layout_phone_type_1"-->
+<!--            android:layout_width="150dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:background="@color/background_phone"-->
+<!--            android:layout_alignParentRight="true">-->
+
+<!--&lt;!&ndash;            <AutoCompleteTextView&ndash;&gt;-->
+<!--&lt;!&ndash;                android:id="@+id/input_phone_type_1"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_width="match_parent"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_height="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:maxLines="1"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:inputType="textCapCharacters"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:imeOptions="actionNext"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:hint="Tipo (Fijo, Cel...)" />&ndash;&gt;-->
+
+<!--        </com.google.android.material.textfield.TextInputLayout>-->
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/input_layout_belonging_phone_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/background_phone"
+            android:layout_below="@id/input_layout_phone_number">
+
+            <AutoCompleteTextView
+                android:id="@+id/input_belonging_phone_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:inputType="textCapCharacters"
+                android:imeOptions="actionNext"
+                android:hint="¿A quién pertenece el Teléfono 1?" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/input_layout_mobile_phone_number"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:background="@color/background_phone"
+            android:layout_toLeftOf="@id/layout_phone_type_2">
+
+            <EditText
+                android:id="@+id/input_mobile_phone_number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Teléfono 2"
+                android:maxLength="13"
+                android:nextFocusDown="@id/phone_type1_select"
+                android:inputType="phone" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_phone_type_2"
+            android:layout_width="156dp"
+            android:layout_height="60dp"
+            android:layout_alignParentRight="true"
+
+            android:background="@color/background_phone"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Tipo (Fijo, Cel...)"
+                android:textSize="13dp"/>
+
+            <Spinner
+                android:id="@+id/phone_type2_select"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:popupBackground="@drawable/blue_outline_white_brackground"/>
+        </LinearLayout>
+
+<!--        <com.google.android.material.textfield.TextInputLayout-->
+<!--            android:id="@+id/input_layout_phone_type_2"-->
+<!--            android:layout_width="150dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:background="@color/background_phone"-->
+<!--            android:layout_alignParentRight="true">-->
+
+<!--            <AutoCompleteTextView-->
+<!--                android:id="@+id/input_phone_type_2"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:maxLines="1"-->
+<!--                android:inputType="textCapCharacters"-->
+<!--                android:imeOptions="actionNext"-->
+<!--                android:hint="Tipo (Fijo, Cel...)" />-->
+
+<!--        </com.google.android.material.textfield.TextInputLayout>-->
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/input_layout_belonging_phone_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/background_phone"
+            android:layout_below="@id/input_layout_mobile_phone_number">
+
+            <AutoCompleteTextView
+                android:id="@+id/input_belonging_phone_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:inputType="textCapCharacters"
+                android:imeOptions="actionNext"
+                android:hint="¿A quién pertenece el Teléfono 2?" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:visibility="visible"
+            android:id="@+id/input_layout_another_phone_number"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:background="@color/background_phone"
+            android:layout_toLeftOf="@id/layout_phone_type_3">
+
+        <EditText
+                android:id="@+id/input_another_phone_number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Teléfono 3"
+                android:maxLength="20"
+            android:nextFocusDown="@id/phone_type1_select"
+                android:inputType="phone" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_phone_type_3"
+            android:layout_width="156dp"
+            android:layout_height="60dp"
+            android:layout_alignParentRight="true"
+
+            android:background="@color/background_phone"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Tipo (Fijo, Cel...)"
+                android:textSize="13dp"/>
+
+            <Spinner
+                android:id="@+id/phone_type3_select"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:popupBackground="@drawable/blue_outline_white_brackground"/>
+        </LinearLayout>
+
+<!--        <com.google.android.material.textfield.TextInputLayout-->
+<!--            android:id="@+id/input_layout_phone_type_3"-->
+<!--            android:layout_width="150dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:background="@color/background_phone"-->
+<!--            android:layout_alignParentRight="true">-->
+
+<!--            <AutoCompleteTextView-->
+<!--                android:id="@+id/input_phone_type_3"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:maxLines="1"-->
+<!--                android:inputType="textCapCharacters"-->
+<!--                android:imeOptions="actionNext"-->
+<!--                android:hint="Tipo (Fijo, Cel...)" />-->
+
+<!--        </com.google.android.material.textfield.TextInputLayout>-->
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/input_layout_belonging_phone_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/background_phone"
+            android:layout_below="@id/input_layout_another_phone_number">
+
+            <AutoCompleteTextView
+                android:id="@+id/input_belonging_phone_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:inputType="textCapCharacters"
+                android:imeOptions="actionNext"
+                android:hint="¿A quién pertenece el Teléfono 3?" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+    </RelativeLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/input_layout_another_phone_number_owner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+
+        <EditText
+            android:id="@+id/input_another_phone_number_owner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="A quién pertenece el teléfono 3" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:visibility="visible"
+        android:id="@+id/input_layout_mail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/input_mail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Mail"
+            android:maxLength="30"
+            android:inputType="textEmailAddress" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+</LinearLayout>

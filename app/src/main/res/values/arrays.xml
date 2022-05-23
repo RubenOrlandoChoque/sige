@@ -1,0 +1,671 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="yes_no_swith_tabs">
+        <item>Si</item>
+        <item>No</item>
+    </string-array>
+
+    <string-array name="condition_swith_tabs">
+        <item>Ingresante</item>
+        <item>Reinscripto</item>
+    </string-array>
+
+    <string-array name="contries_array">
+        <item>Argentina</item>
+        <item>Bolivia</item>
+        <item>Brasil</item>
+        <item>Chile</item>
+        <item>Colombia</item>
+        <item>Ecuador</item>
+        <item>Venezuela</item>
+        <item>Paraguay</item>
+        <item>Perú</item>
+        <item>Uruguay</item>
+    </string-array>
+
+    <string-array name="provinces_array">
+        <item>Salta</item>
+        <item>Jujuy</item>
+        <item>Formosa</item>
+        <item>Chaco</item>
+        <item>Tucumán</item>
+        <item>Catamarca</item>
+        <item>Santiago del Estero</item>
+        <item>Misiones</item>
+        <item>Corrientes</item>
+        <item>Entre Ríos</item>
+        <item>Santa Fe</item>
+        <item>Córdoba</item>
+        <item>La Rioja</item>
+        <item>San Juan</item>
+        <item>Mendoza</item>
+        <item>San Luis</item>
+        <item>La Pampa</item>
+        <item>Ciudad de Buenos Aires</item>
+        <item>Provincia de Buenos Aires</item>
+        <item>Neuquén</item>
+        <item>Río Negro</item>
+        <item>Chubut</item>
+        <item>Santa Cruz</item>
+        <item>Tierra del Fuego</item>
+    </string-array>
+
+    <string-array name="departments_array">
+        <item>Anta</item>
+        <item>Cachi</item>
+        <item>Cafayate</item>
+        <item>Capital (Salta)</item>
+        <item>Cerrillos</item>
+        <item>Chicoana</item>
+        <item>General Güemes</item>
+        <item>General José De San Martín</item>
+        <item>Guachipas</item>
+        <item>Iruya</item>
+        <item>La Caldera</item>
+        <item>La Candelaria</item>
+        <item>La Poma</item>
+        <item>La Viña</item>
+        <item>Los Andes</item>
+        <item>Metán</item>
+        <item>Molinos</item>
+        <item>Orán</item>
+        <item>Rivadavia</item>
+        <item>Rosario De La Frontera</item>
+        <item>Rosario De Lerma</item>
+        <item>San Carlos</item>
+        <item>Santa Victoria</item>
+    </string-array>
+
+    <string-array name="location_array">
+        <item>Salta Capital</item>
+        <item>Cerrillos</item>
+        <item>Atocha</item>
+        <item>Rosario de Lerma</item>
+        <item>Campo Quijano</item>
+        <item>La Caldera</item>
+        <item>Vaqueros</item>
+        <item>El Carril</item>
+        <item>Chicoana</item>
+        <item>San Carlos y Animaná</item>
+        <item>Cafayate</item>
+        <item>General Güemes</item>
+        <item>Mosconi</item>
+        <item>Metán</item>
+        <item>Rosario de la Frontera</item>
+        <item>Joaquin V. Gonzalez</item>
+        <item>Hipolito Yrigoyen</item>
+        <item>Oran</item>
+        <item>General Mosconi</item>
+        <item>San Lorenzo</item>
+        <item>San Luis</item>
+        <item>San Antonio de los Cobres</item>
+        <item>Tartagal</item>
+        <item>Embarcación</item>
+    </string-array>
+
+    <string-array name="belonging_array">
+        <item>Padre</item>
+        <item>Madre</item>
+        <item>Tutor</item>
+        <item>Padrastro</item>
+        <item>Madrastra</item>
+        <item>Madrina</item>
+        <item>Padrino</item>
+        <item>Abuelo/a</item>
+        <item>Concubino/a</item>
+        <item>Cuñado/a</item>
+        <item>Esposo/a</item>
+        <item>Hermano/a</item>
+        <item>Novio/a</item>
+        <item>Pareja</item>
+        <item>Primo/a</item>
+        <item>Sobrino/a</item>
+        <item>Tío/a</item>
+        <item>Vecino/a</item>
+        <item>Otro familiar</item>
+        <item>No familiar</item>
+        <item>Hijo/a</item>
+    </string-array>
+
+    <string-array name="highest_education">
+        <item>Seleccione una opción</item>
+        <item>Sin Estudios</item>
+        <item>Primaria/EGB INCOMPLETA</item>
+        <item>Primaria/EGB COMPLETA</item>
+        <item>Secundaria/Polimodal INCOMPLETA</item>
+        <item>Secundaria/Polimodal COMPLETA</item>
+        <item>Superior INCOMPLETO</item>
+        <item>Superior COMPLETO</item>
+        <item>No sabe</item>
+    </string-array>
+
+    <string-array name="phone_type_array">
+        <item>Seleccione </item>
+        <item>Celular</item>
+        <item>Emergencia</item>
+        <item>Fijo</item>
+        <item>Negocio</item>
+        <item>Particular</item>
+        <item>Trabajo</item>
+        <item>Otro</item>
+    </string-array>
+    <string-array name="ocupations_array">
+        <item>ACOMPAÑANTE TERAPÉUTICO/A</item>
+        <item>ADMINISTRATIVO/A</item>
+        <item>ALBAÑIL</item>
+        <item>AMA DE CASA</item>
+        <item>AMA DE CASA Y ESTUDIANTE</item>
+        <item>ALFARERO/A</item>
+        <item>ARTESANO/A</item>
+        <item>ASISTENTE TERAPEUTICO</item>
+        <item>AUX CORREO ARGENTINO</item>
+        <item>AUX. MAESTRA</item>
+        <item>AYUDANTE DE ALBAÑIL</item>
+        <item>AYUDANTE DE COCINA</item>
+        <item>AYUDANTE DE TALLER</item>
+        <item>BOMBERO VOLUNTARIO</item>
+        <item>CAMIONERO</item>
+        <item>CARPINTERO</item>
+        <item>CHEF</item>
+        <item>CHOFER</item>
+        <item>CHOFER DE COLECTIVO</item>
+        <item>COMERCIANTE</item>
+        <item>CONSTRUCCION</item>
+        <item>COOPERATIVISTA</item>
+        <item>DESEMPLEADO/A</item>
+        <item>DESOCUPADO/A</item>
+        <item>DOCENTE</item>
+        <item>ELECTRICISTA</item>
+        <item>EMPL PUBLICO</item>
+        <item>EMPL TERAPEUTICA</item>
+        <item>EMPL. ADMINISTRATIVO/A</item>
+        <item>EMPL. CERAMICA</item>
+        <item>EMPL. DE COMERCIO</item>
+        <item>EMPL. DE LA PROVINCIA</item>
+        <item>EMPL. DE TURISMO</item>
+        <item>EMPL. DOMESTICA</item>
+        <item>EMPL. GASTRONOMICO/A</item>
+        <item>EMPL. MUNICIPAL</item>
+        <item>EMPL. PRIVADO/A</item>
+        <item>EMPL. PUBLICO</item>
+        <item>EMPL. RURAL</item>
+        <item>EMPLEADO/A</item>
+        <item>ENFERMERO/A</item>
+        <item>ESTUDIANTE</item>
+        <item>ESTUDIANTE SECUNDARIO</item>
+        <item>ESTUDIANTE PRIMARIO</item>
+        <item>ESTUDIANTE UNIVERSITARIO</item>
+        <item>ESTUDIANTE TERCIARIO</item>
+        <item>FARMACEUTICO/A</item>
+        <item>GASTRONOMICO</item>
+        <item>GASISTA</item>
+        <item>GENDARME</item>
+        <item>HOSPITAL MILITAR</item>
+        <item>INDEPENDIENTE</item>
+        <item>INGENIERO/A</item>
+        <item>JARDINERO</item>
+        <item>JUBILADO/A</item>
+        <item>LIMPIEZA</item>
+        <item>MAESTRANZA</item>
+        <item>MAESTRO/A</item>
+        <item>MANTENIMIENTO</item>
+        <item>MECANICO</item>
+        <item>METALNOR</item>
+        <item>METALURGIA</item>
+        <item>MILITAR</item>
+        <item>MILITAR RETIRADO</item>
+        <item>MUSICO</item>
+        <item>NEGOCIANTE</item>
+        <item>NIÑERA</item>
+        <item>OPERADOR/A DE RADIO</item>
+        <item>OPERARIO</item>
+        <item>ORDENANZA</item>
+        <item>PANADERO</item>
+        <item>PARTICULAR</item>
+        <item>PELUQUERO/A</item>
+        <item>PENSIONADO</item>
+        <item>PEÓN RURAL</item>
+        <item>PERMISIONARIO</item>
+        <item>PINTOR DE OBRA</item>
+        <item>PLOMERO</item>
+        <item>POLICIA</item>
+        <item>PROF EDUC FISICA</item>
+        <item>PROF NIVEL INICIAL</item>
+        <item>PROFESOR</item>
+        <item>REMISERO/A</item>
+        <item>REPOSTERO/A</item>
+        <item>SECRETARIA</item>
+        <item>SECRETARIA ADMINISTRATIVA</item>
+        <item>SEGURIDAD PRIVADA</item>
+        <item>SOLDADOR</item>
+        <item>TAXISTA</item>
+        <item>TECNICO ELECTRICISTA</item>
+        <item>TERAPEUTA</item>
+        <item>TRABAJADORA SOCIAL</item>
+        <item>TRABAJO INDEPENDIENTE</item>
+        <item>TRABAJO PARTICULAR</item>
+        <item>VENDEDOR/A AMBULANTE</item>
+        <item>VENDEDOR/A INDEPENDIENTE</item>
+        <item>VERDULERA</item>
+        <item>VIGILANCIA</item>
+    </string-array>
+
+    <string-array name="schools_array">
+        <item>3100 - EET REPUBLICA DE LA INDIA Nª 3100 EX N°5100-7100</item>
+        <item>3101 - EET DOCTOR JOAQUIN CASTELLANOS Nª 3101 EX N° 5101-7101</item>
+        <item>3105 - EET Nº 3105 EX N° 5105-7106</item>
+        <item>3106 - EET N°3106 ING.RICARDO FONTAINE MAURY Nº 3106</item>
+        <item>3107 - EET JUANA AZURDUY DE PADILLA Nº 3107 EX N°5107</item>
+        <item>3108 - EET GENERAL RUDECINDO ALVARADO EX N°5108-7109</item>
+        <item>3112 - EET SAN IGNACIO DE LOYOLA EX Nº 5112-7113</item>
+        <item>3117 - EET MAESTRO DANIEL OSCAR REYES EX N° 5117</item>
+        <item>3118 - EET Nº3118 EX N° 5118-7121</item>
+        <item>3122 - EET GRAL.MARTIN MIGUEL DE GUEMES Nº 3122 EX N° 5122</item>
+        <item>3137 - EET MARTINA SILVA DE GURRUCHAGA Nº 3137EX N° 5137</item>
+        <item>3138 - EET DR.ALBERTO EINSTEIN EX N° 5138</item>
+        <item>3139 - EET GRAL. MARTIN MIGUEL DE GUEMES EX Nº 5139</item>
+        <item>3140 - EET DR.FRANCISCO DE GURRUCHAGA EX Nº 5140</item>
+        <item>3141 - EET EX N° 5141</item>
+        <item>3144 - EET CAP. MARCELO LOTUFO EX N° 5144</item>
+        <item>3148 - EET Nº 3148 "INGENIERO OTTO KRAUSE"</item>
+        <item>3149 - EET DR.JULIO IGNACIO MERA FIGUEROA EX N° 5174</item>
+        <item>3150 - EET Nº 3150 PACTO DE LOS CERRILLOS EX N° 5015</item>
+        <item>4001 - JUAN BAUTISTA ALBERDI EX N° 5</item>
+        <item>4002 - MARIANO CABEZON EX Nº 6</item>
+        <item>4003 - DOCTOR JOAQUIN CASTELLANOS EX N° 7</item>
+        <item>4004 - ESC. Nº 4004 CORDOBA</item>
+        <item>4005 - JUAN CARLOS DAVALOS EX N°11</item>
+        <item>4006 - AMERICA LATINA EX N° 14</item>
+        <item>4007 - GENERAL MARTIN MIGUEL DE GUEMES EX N°16</item>
+        <item>4008 - GRAL BARTOLOME MITRE EX N°18</item>
+        <item>4009 - 9 DE JULIO DE 1816 EX N° 28</item>
+        <item>4010 - SANTA MARIA EUFRASIA PELLETIER EX N° 30</item>
+        <item>4011 - BERNARDINO RIVADAVIA EX N°31</item>
+        <item>4012 - PRESIDENTE JULIO ARGENTINO ROCA EX N° 32</item>
+        <item>4013 - MIGUEL DE CERVANTES SAAVEDRA EX N° 34</item>
+        <item>4014 - SAN JOSE EX N°39</item>
+        <item>4015 - REMEDIOS ESCALADA DE SAN MARTIN EX N° 40</item>
+        <item>4016 - MAESTRA JACOBA SARAVIA EX N° 41</item>
+        <item>4017 - PRESIDENTE DOMINGO FAUSTINO SARMIENTO EX N° 42</item>
+        <item>4018 - DR.JOSE VICENTE SOLA EX N° 43</item>
+        <item>4019 - PRESIDENTE JOSE EVARISTO URIBURU EX N° 44</item>
+        <item>4020 - GENERAL JUSTO JOSE DE URQUIZA EX N° 45</item>
+        <item>4021 - 20 DE FEBRERO DE 1813 EX N° 46</item>
+        <item>4022 - DOCTOR BENJAMIN ZORRILLA EX N° 47</item>
+        <item>4023 - EJERCITO ARGENTINO EX N°57</item>
+        <item>4024 - PREBISTERO DOCTOR JUAN FRANCISCO DE CASTRO EX N° 59</item>
+        <item>4025 - DR. MIGUEL ORTIZ EX N°60</item>
+        <item>4026 - DOCTOR DELFIN LEGUIZAMON EX N° 61</item>
+        <item>4027 - DOCTOR BENJAMIN DAVALOS Y AVILES</item>
+        <item>4028 - BRIG.GRAL.JUAN ANTONIO ALVAREZ DE ARENALES EX N°63</item>
+        <item>4029 - DR. NICOLAS AVELLANEDA EX N° 64</item>
+        <item>4030 - DOCTOR MARIANO MORENO EX N°67</item>
+        <item>4031 - PEDRO BONIFACIO PALACIOS - Almafuerte</item>
+        <item>4032 - LEOPOLDO LUGONES EX N°70</item>
+        <item>4033 - REPUBLICA ARGENTINA EX N°71</item>
+        <item>4034 - SANTA LUCIA EX N° 72</item>
+        <item>4035 - PROFESOR ALEJANDRO GAUFFIN EX N° 73</item>
+        <item>4036 - DOCTOR AUGUSTO RAUL CORTAZAR EX N° 74</item>
+        <item>4037 - MARIQUITA SANCHEZ DE THOMPSON EX N° 75</item>
+        <item>4038 - ARMADA NACIONAL EX N°76</item>
+        <item>4039 - PROVINCIA DE BUENOS AIRES EX N° 77</item>
+        <item>4040 - MERCEDES DE LOS MILAGROS LAVIN EX N° 078</item>
+        <item>4041 - INGENIERO RAFAEL PATRICIO SOSA EX N°79</item>
+        <item>4042 - IV CENTENARIO DE LA FUNDACION DE SALTA EX N° 80</item>
+        <item>4043 - MONSEÑOR CARLOS MARIANO PEREZ EX N°81</item>
+        <item>4044 - FRAY HONORATO PISTOIA EX N° 92</item>
+        <item>4045 - DR. ARTURO OÑATIVIA EX N°93</item>
+        <item>4046 - CESAR FERMIN PERDIGUERO EX N° 94</item>
+        <item>4047 - MARIA EVA DUARTE DE PERON EX N° 95</item>
+        <item>4048 - PROVINCIA DE SALTA EX N° 96</item>
+        <item>4049 - INDEPENDENCIA NACIONAL EX N° 98</item>
+        <item>4050 - CLARA SARAVIA LINARES DE ARIAS EX N° 99</item>
+        <item>4053 - GRAL.RUDECINDO ALVARADO EX N° 103</item>
+        <item>4054 - DOCTOR MARTIN GABRIEL DE GUEMES</item>
+        <item>4055 - JOSE MANUEL ESTRADA EX N° 106</item>
+        <item>4069 - GOBERNADOR MANUEL SOLA EX N° 128</item>
+        <item>4070 - DOCTOR MARIANO BOEDO EX N° 129</item>
+        <item>4073 - DOCTOR MANUEL ANTONIO ACEVEDO EX N°132</item>
+        <item>4099 - DR.FRANCISCO DE GURRUCHAGA EX N° 170</item>
+        <item>4106 - ESC. Nº 4106</item>
+        <item>4217 - LUIS GORJON ALVAREZ EX N° 343</item>
+        <item>4241 - FRAGATA LIBERTAD EX N° 372</item>
+        <item>4260 - ESC. Nº 4260 EX N° 396</item>
+        <item>4304 - NUESTRA SEÑORA DEL CARMEN EX N° 482</item>
+        <item>4314 - BRIGADIER GENERAL JUAN ANTONIO ALVAREZ DE ARENALES- EX Nº 501</item>
+        <item>4315 - REINO DE BELGICA EX N°502</item>
+        <item>4316 - JUANA AZURDUY DE PADILLA EX N°503</item>
+        <item>4317 - TTE.CORONEL CALIXTO GAUNA EX N° 504</item>
+        <item>4318 - GRAL JOSE DE SAN MARTIN EX N°505</item>
+        <item>4319 - MARCO SASTRE EX N° 506</item>
+        <item>4320 - SAN AGUSTIN EX N° 507</item>
+        <item>4326 - GAUCHOS DE GUEMES EX N°514</item>
+        <item>4327 - GABRIEL DE GÜEMES MONTERO EX N° 515</item>
+        <item>4328 - REPUBLICA DE VENEZUELA EX N° 516</item>
+        <item>4330 - JOSE EUSTAQUIO ALDERETE EX N° 519</item>
+        <item>4331 - ESC. Nª 4331 EL TIMBO EX N° 520</item>
+        <item>4361 - DOCTOR MARTIN RAUL MAINOLI EX N° 554</item>
+        <item>4371 - DOCTOR JORGE ALBERTO TREVISAN PALACIOS" X N°565</item>
+        <item>4394 - CORONEL VICENTE TORINO EX N° 589</item>
+        <item>4398 - GENERAL BARTOLOME MITRE EX N° 593</item>
+        <item>4422 - CRUCERO ARA GENERAL MANUEL BELGRANO EX N° 621</item>
+        <item>4434 - MARIA ELVIRA REYES DE CAMPOS</item>
+        <item>4436 - SAN MIGUEL ARCANGEL EX N° 635</item>
+        <item>4442 - PROF. JULIO HILARIO SARMIENTO - EX N°641</item>
+        <item>4445 - CANAL DE BEAGLE EX N° 644</item>
+        <item>4449 - GABRIELA TORANZOS DE PERETTI EX N°648</item>
+        <item>4472 - MARIA ELVIRA CASTELLANOS DE URIBURU EX N° 676</item>
+        <item>4474 - ESC. Nª 4474 EX N° 678</item>
+        <item>4477 - ESC. Nª 4477 EX N° 681</item>
+        <item>4480 - CHAIN WEISMAN</item>
+        <item>4490 - ESC. Nª 4490 "Don Augusto Carlos Torino"</item>
+        <item>4526 - ESC. Nª 4526 EL ROSAL EX N° 741</item>
+        <item>4530 - TENIENTE BENJAMIN MATIENZO EX N°746</item>
+        <item>4547 - EMILIO ESPELTA EX N° 765</item>
+        <item>4548 - ESC. Nª 4548 EX N° 766</item>
+        <item>4563 - DR.INDALECIO GOMEZ EX N°784</item>
+        <item>4580 - ESC. N° 4580 EX N° 808</item>
+        <item>4587 - ESC. N° 4587 EX N°816</item>
+        <item>4595 - ROSA ALVARADO DE VERA EX N° 826</item>
+        <item>4599 - VETERANOS DE GUERRA Y CAIDOS EN COMBATE DE MALVINAS EX N°831</item>
+        <item>4618 - ESC. Nª 4618 MARTA ELENA LEE EX N°863</item>
+        <item>4619 - CORONEL SEVERO DE ZEQUEIRA EX N° 864</item>
+        <item>4620 - CNEL.MANUEL EDUARDO ARIAS EX N° 865</item>
+        <item>4621 - CORONEL JUAN ANTONIO ROJAS EX N° 866</item>
+        <item>4631 - VIRREY FRANCISCO DE TOLEDO EX N° 876</item>
+        <item>4632 - DOCTOR JOAQUIN GUASCH EX N° 877</item>
+        <item>4634 - SUBMARINO A.R.A. SALTA EX N° 879</item>
+        <item>4637 - MARIA MAGDALENA GOYECHEA DE GUEMES EX N° 882</item>
+        <item>4638 - FRAY LUIS BELTRAN EX NRO.883</item>
+        <item>4642 - CAMPAÑA DEL DESIERTO EX N°887</item>
+        <item>4643 - DR.JOAQUIN CASTELLANOS EX N° 888</item>
+        <item>4644 - ALMIRANTE GUILLERMO BROWN EX N° 889</item>
+        <item>4645 - 25 DE MAYO DE 1810 EX N°890</item>
+        <item>4646 - PAULA ALBARRACIN EX N° 891</item>
+        <item>4647 - DR.MARIANO BOEDO EX N°892</item>
+        <item>4656 - SAN JUAN BOSCO EX N° 903</item>
+        <item>4660 - ESC. HOGAR CARMEN PUCH DE GUEMES EX N°914</item>
+        <item>4688 - NUESTRA SEÑORA DE LA ASUNCION EX N° 955</item>
+        <item>4691 - ALMIRANTE CRISTOBAL COLON EX N° 1008</item>
+        <item>4692 - MARIA DEL ROSARIO DE SAN NICOLAS EX N° 1032</item>
+        <item>4699 - DOCTOR RICARDO JOAQUIN DURAN EX N° 1041</item>
+        <item>4700 - LEGADO GENERAL BELGRANO EX N° 1042</item>
+        <item>4703 - GENERAL MANUEL BELGRANO EX N°1045</item>
+        <item>4709 - JARDIN MATERNAL INFANTIL DIENTE FLOJO N° 4709 EX Nº2500</item>
+        <item>4711 - GUARDERIA JUAN GALO LAVALLE EX 2502</item>
+        <item>4712 - ARMADA ARGENTINA EX Nº 2503</item>
+        <item>4713 - CENTRO DE DESARROLLO INFANTIL EJERCITO ARGENTINO EX 2504</item>
+        <item>4714 - INST. SALA CUNA DOCTOR LUIS GUEMES EX 2505</item>
+        <item>4716 - CENTRO DESARROLLO FAMILIAR EVA PERON EX Nº2509</item>
+        <item>4717 - CENTRO DE DESARROLLO FAMILIAR - EX Nº 2510</item>
+        <item>4718 - CTRO.DESAR.FAMILIAR MONS.CARLOS.MARIANO PEREZ EX Nº2511</item>
+        <item>4721 - PRE-JARDIN SAN LORENZO MARTIR EX 2521</item>
+        <item>4726 - PROFESOR OSCAR VENANCIO OÑATIVIA</item>
+        <item>4728 - ALBA CORONEL DE PEREYRA ROZAS</item>
+        <item>4730 - NUESTRA SEÑORA DEL MILAGRO Nº 4730</item>
+        <item>4731 - FRAY ROQUE CHIELLI</item>
+        <item>4732 - SAN CARLOS BORROMEO N° 4732</item>
+        <item>4734 - DOCTOR RENE GERONIMO FAVALORO N° 4734</item>
+        <item>4741 - DOCTOR GUSTAVO CUCHI LEGUIZAMON</item>
+        <item>4742 - ESC. Nº 4742 Maria Dolores Laurentina Aranda</item>
+        <item>4752 - DODY ARAOZ COSTAS DE JOVANOVICS USANDIVARAS</item>
+        <item>4756 - ESC. Nª 4756</item>
+        <item>4761 - ROBERTO ROMERO</item>
+        <item>4767 - JARDIN MATERNO INFANTIL TA TE TI (VILLA BELGRANO EX 2555 -</item>
+        <item>4774 - GENERAL JUAN JOSE VALLE</item>
+        <item>4775 - PROFESORA ELSA SALFITY EX Nº 1105</item>
+        <item>4784 - ESC. Nº 4784 Dolores Campion</item>
+        <item>4808 - ESC. Nº 4808 "Gesta Sanmartiniana"</item>
+        <item>4811 - ESC. Nº 4811 - "2 DE MAYO CRUCERO A.R.A. GENERAL BELGRANO"</item>
+        <item>4817 - ESC. Nº 4817 "Dr. Roberto Domingo Nazr"</item>
+        <item>4836 - ESC. INFANTIL N°4836 DE NIVEL INICIAL</item>
+        <item>4837 - ESC. Nº 4837 SAN JOSE DE LOS CERRILLOS</item>
+        <item>4843 - "BICENTENARIO DE LA BATALLA DE SALTA"</item>
+        <item>4845 - "Bicentenario de la Independencia Argentina"</item>
+        <item>4848 - NUESTRA SEÑORA DE ATOCHA Nº 4848</item>
+        <item>4858 - ESC. Infantil Nº 4858</item>
+        <item>4859 - ESC. de Educación Inicial Nº 4859</item>
+        <item>5001 - ESC. DE COMERCIO DR HIPOLITO YRIGOYEN EX N°1</item>
+        <item>5014 - COL. SEC. 2 DE ABRIL DE 1982</item>
+        <item>5020 - COL. SEC. PROFESOR NESTOR OSCAR PALACIOS EX N° 17</item>
+        <item>5021 - COL. SEC. CIUDAD DEL MILAGRO</item>
+        <item>5022 - COL. SEC. PROF.AMADEO R.SIROLLI EX Nº19</item>
+        <item>5024 - COL. SEC. SARGENTO CABRAL EX N°21</item>
+        <item>5026 - COL. SEC. 20 DE FEBRERO - EX N° 23</item>
+        <item>5027 - COL. SEC. GRAL.JOSE DE SAN MARTIN EX N° 24</item>
+        <item>5028 - COL. "REYES CATOLICOS" EX N° 25</item>
+        <item>5033 - COL. SEC. DOCTOR ERNESTO MIGUEL ARAOZ EX N°32</item>
+        <item>5035 - COL. SEC. "BATALLA DE SALTA" EX N° 34</item>
+        <item>5038 - COL. SEC. AMERICA LATINA Nº 5038</item>
+        <item>5039 - COL. SEC. 11 DE SETIEMBRE EX N°38</item>
+        <item>5046 - COL. SEC. JUAN CALCHAQUI EX N° 45</item>
+        <item>5047 - COL. SEC. DR. BENJAMIN ZORRILLA EX N° 46</item>
+        <item>5048 - COL. SEC. JUANA MANUELA GORRITI EX N° 47</item>
+        <item>5049 - COL. SEC. 25 DE MAYO EX N° 48</item>
+        <item>5051 - COL. SEC. NUESTRA.SRA.DE LA MERCED EX N° 50</item>
+        <item>5052 - COL. SEC. "JUAN MANUEL DE ROSAS" EX N° 51</item>
+        <item>5056 - COL. SEC."SAN JOSE DE CALASANZ" EX N° 55</item>
+        <item>5063 - COL. SEC. JUAN PABLO II EX N°62</item>
+        <item>5070 - COL. SEC. MARIA TERESA CADENA DE HESSLING EX N° 69</item>
+        <item>5071 - COL. SEC. "JUAN CARLOS SARAVIA"</item>
+        <item>5073 - COL. SEC. Nª 5073 " Genoveva Astigueta" EX N° 72</item>
+        <item>5075 - COL. SEC. BENITA CAMPOS Nº 5075. EX N°74</item>
+        <item>5076 - COL. SEC. "DR.ARTURO ILLIA" EX N°75</item>
+        <item>5080 - COL. SEC. DR.MANUEL ANTONIO CASTRO EX N°81</item>
+        <item>5081 - COL. SEC. "DOCTOR RAUL ALFONSIN" EX N°82</item>
+        <item>5082 - ESC. DE COMERCIO Nª 5082 -"DR. ADOLFO GUEMES"</item>
+        <item>5083 - COL. SEC. "DR.VICTORINO DE LA PLAZA"</item>
+        <item>5084 - COL. SEC. Nº 5084 EX COMBATIENTES DE MALVINAS EX N° 85</item>
+        <item>5086 - COL. SEC. CNEL.JULIO SERGIO JOVANOVICS USANDIVARAS</item>
+        <item>5092 - COL. SEC. CENTRO POLIVALENTE DE ARTE</item>
+        <item>5093 - ESC. PROVINCIAL DE BELLAS ARTES TOMAS CABRERA</item>
+        <item>5094 - COL. SEC. Nº 5094 RAUL SCALABRINI ORTIZ</item>
+        <item>5095 - COL. GRAL.MANUEL BELGRANO</item>
+        <item>5145 - COL. SEC. Nº 5145 DOCTOR RENE GERONIMO FAVALORO</item>
+        <item>5147 - COL. SEC. DR.SALVADOR MAZZA</item>
+        <item>5149 - COL. SEC. GESTA GUEMESIANA N° 5149</item>
+        <item>5150 - COL. SEC. RURAL LAS PALMAS Nª 5150</item>
+        <item>5159 - COL. SEC. Nº 5159</item>
+        <item>5164 - COL. SEC. N° 5164</item>
+        <item>5167 - DR.MIGUEL RAGONE</item>
+        <item>5169 - COL. SEC. Nº 5169</item>
+        <item>5170 - COL. SEC. "WALTER ADET"</item>
+        <item>5176 - COL. SEC. Nº 5176</item>
+        <item>5194 - COL. SEC. RURAL</item>
+        <item>5208 - COL. SEC. RURAL "PUCARA" Nº 5208</item>
+        <item>5209 - COL. SEC. RURAL "EL TIMBO"</item>
+        <item>5212 - COL. SEC. Nº 5212 "DR.MANUEL SADOSKY" mediada por las TICs.</item>
+        <item>7001 - NUCLEO EDUCATIVO Nª 7001 EX N°1</item>
+        <item>7002 - NUCLEO EDUCATIVO Nª 7002</item>
+        <item>7003 - NUCLEO EDUCATIVO Nº 7003</item>
+        <item>7004 - NUCLEO EDUCATIVO 7004 EX N°4 - ESC. N° 1003</item>
+        <item>7005 - NUCLEO EDUCATIVO Nª 7005 EX N°5</item>
+        <item>7006 - NUCLEO EDUCATIVO DE JOVENES Y ADULTOS N° 7006</item>
+        <item>7007 - NUCLEO EDUCATIVO Nª7007 - EX N°7-EX Nº 1006</item>
+        <item>7008 - NUCLEO EDUCATIVO PATRICIO GUANCA Nº 7008</item>
+        <item>7034 - ESC. Nº 7034 de Jóvenes y Adultos "Cordoba"</item>
+        <item>7035 - ESC. Nº 7035</item>
+        <item>7036 - ESC. Nº 7036 de Jóvenes Y Adultos N° 7036</item>
+        <item>7037 - ESC. EDUC. ESPECIAL- HOSPITAL DEL MILAGRO - ORIENTACION LABORAL</item>
+        <item>7038 - ESC. ESPECIAL HOSPITALARIA DR. ANDRES CORNEJO EX N° 10</item>
+        <item>7039 - ESC. EDUC. ESPECIAL DRA.CAROLINA TOBAR GARCIA N° 7039</item>
+        <item>7040 - ESC. EDUC. ESPECIAL EX N°13 CORINA LONA</item>
+        <item>7041 - ESC. EDUC. ESPECIAL DOCTOR MARIANO CASTEX EX N° 15</item>
+        <item>7042 - NUCLEO EDUCATIVO ROSA VIRGINIA PELLETIER (U.CARCELARIA N°4 -</item>
+        <item>7043 - NUCLEO EDUCATIVO FRAY M.ESQUIU EX NRO.50 (Unidad Carcelaria -</item>
+        <item>7044 - ESC. EDUC. ESPECIAL "EFETA" N° 7044</item>
+        <item>7045 - ESC. ESPECIAL DOMICILIARIA DR.OSCAR H.COSTAS EX N° 97</item>
+        <item>7060 - B.S.P.A. N° 7060 Ex Nº 1 ESC. ROCA - SEDE</item>
+        <item>7061 - SUBSEDE B.S.P.A. Nº 7061 EX Nº1 - LA CIENAGA</item>
+        <item>7062 - B.S.P.A. Nª 7062 EX N° 2 COL. ARAOZ</item>
+        <item>7063 - B.S.P.A. EX N°3 -ESC. MARIANO PEREZ-</item>
+        <item>7065 - CENTRO B.S.P.A. "PROFESOR OSCAR MONTENEGRO" Nº 7065</item>
+        <item>7066 - B.S.P.A. N° 7066 EX N° 5 ESC. FRAY BELTRAN</item>
+        <item>7068 - B.S.P.A. Nº 7068 MANUEL J. CASTILLA- SEDE CERRILLOS</item>
+        <item>7069 - SUBSEDE B.S.P.A. Nº 7069 "SEÑOR DEL SUMALAO" DE LA MERCED</item>
+        <item>7070 - CENTRO B.S.P.A. EX N° 8 - BACHILLERATO SALTEÑO PARA ADULTOS-</item>
+        <item>7071 - B.S.P.A. Nº 7071 - SEDE CAMPO QUIJANO</item>
+        <item>7072 - SUBSEDE B.S.P.A. Nº 7072 - SAN LUIS</item>
+        <item>7084 - B.S.P.A.Nº 7084 EX N°17 -ESC. ARENALES-</item>
+        <item>7085 - B.S.P.A. ESC. J.V.SOLA</item>
+        <item>7086 - B.S.P.A.Nª 7086 EX N°20 -ESC.DR.B. ZORRILLA-</item>
+        <item>7089 - CENTRO B.S.P.A. EX N° 23 ESC. LEGUIZAMON</item>
+        <item>7094 - CENS Nº 7094 EX N°1 DR.MIGUEL RAGONE - ESC. JACOBA SARAVIA</item>
+        <item>7095 - CENS Nº 7095 Ex N°2 - EJERCITO -</item>
+        <item>7096 - CENS Nº 7096 EX N°3 -ESC. SAN MARTIN-</item>
+        <item>7097 - CENS Nº 7097 EX N° 4</item>
+        <item>7120 - CURSOS EDUC. TECNICA Nº 7120</item>
+        <item>7127 - ESC EDUC TECNICA ESPECIAL N°7127 PROF NORA RAQUEL GODOY</item>
+        <item>7129 - EET Nº 7129 EX N°45 -CURSOS EDUC. TECNICA-</item>
+        <item>7134 - CICLO DE CAPACITACION LABORAL "LAS ROSAS"</item>
+        <item>7135 - CICLO DE CAPACITACION LABORAL CHRISTOFREDO JAKOB</item>
+        <item>7139 - CENTRO DE CAPACITACION LABORAL M.M.DE GUEMES Nº EX 13</item>
+        <item>7141 - INST. ESPECIAL - ESC. DE AJEDREZ</item>
+        <item>7142 - TALLERES ARTISTICO JAIME DAVALOS</item>
+        <item>7149 - CENTRO PROVINCIAL EDUC. FISICA - CEF</item>
+        <item>7150 - INST. ESPECIAL DEL PORTEZUELO EX N° 31 (Unidad Carcelaria -</item>
+        <item>7158 - B.S.P.A. Nº 7158</item>
+        <item>7164 - CENTRO DE EGB 3 Y POLIMODAL PARA ADULTOS EN ENTORNOS DE TRABAJO</item>
+        <item>7169 - B.S.P.A. BACHILLERATO SALTEÑO PARA ADULTOS</item>
+        <item>7171 - ESC. EDUC. ESPECIAL "JEAN MERMOZ" Nº 7171</item>
+        <item>7197 - ESC. EDUC. ESPECIAL Nº 7197</item>
+        <item>7199 - B.S.P.A. BACHILLERATO SALTEÑO PARA ADULTOS</item>
+        <item>7200 - CENTRO B.S.P.A. Nº 7200 "PADRE ERNESTO MARTEARENA"</item>
+        <item>7210 - NUCLEO EDUCATIVO N° 7210 Para Jovenes y Adultos en Contexto de Encierro</item>
+        <item>7212 - B.S.P.A. -SEÑOR Y VIRGEN DEL MILAGRO- UNIDAD PENITENCIARIA FEDERAL</item>
+        <item>7214 - CENTRO DE CAPACITACION Nº 7214 "EL PUESTO"</item>
+        <item>7215 - INST.ESP.Nº 7215 DE ATENCION DOMICILAIRIA Y HOSPITALARIA DE NIVEL SEC.</item>
+        <item>7231 - B.S.P.A. Nº 7231</item>
+        <item>7232 - COL. SEC. PARA ADULTOS N°7232</item>
+        <item>7239 - COL. SEC. PARA ADULTOS N°7239 - Anexo N°7065 - Salta-</item>
+        <item>7241 - CENTRO POLIVALENTE DE ARTE PARA ADULTOS N°7241 - Ex N°5092</item>
+        <item>8001 - INST. COOPERATIVO 14 DE ABRIL</item>
+        <item>8002 - ESC. ADVENTISTA BARTOLOME MITRE EX N°971-1 BIS</item>
+        <item>8004 - COL. AMERICO VESPUCIO EX N° 70 BIS</item>
+        <item>8006 - COL. SALESIANO ANGEL ZERDA</item>
+        <item>8007 - COL. BELGRANO EX N° 25 BIS</item>
+        <item>8008 - INST. PRIVADO DOCTOR BERNARDO FRIAS EX N° 20</item>
+        <item>8009 - BETANIA DEL SAGRADO CORAZON - EX N°15 BIS</item>
+        <item>8013 - INST. CARLOS GUIDO SPANO</item>
+        <item>8015 - ESC. SALESIANA CEFERINO NAMUNCURA EX N°14 BIS</item>
+        <item>8018 - COL. CODESA COOPERATIVA JACARANDA LTDA</item>
+        <item>8022 - C.R.I.O.S.(CENTRO DE REHABILITACION INTEGRAL ORAL PARA SORDOS E HIP -</item>
+        <item>8023 - COL. DE LA DIVINA MISERICORDIA</item>
+        <item>8024 - COL. DEL MILAGRO</item>
+        <item>8025 - ESC. DEL CERRO</item>
+        <item>8027 - INST. PRIVADO DOMINGO SAVIO</item>
+        <item>8030 - INST. EDUC. ESPECIAL - EX INTERMEDIA</item>
+        <item>8031 - INST. EDUC. INTEGRAL DE SALTA N° EX 23 BIS</item>
+        <item>8034 - INST. SUPERIOR CRUZ ROJA ARGENTINA - FILIAL SALTA -</item>
+        <item>8035 - DOCTOR ERNESTO SOLA N° 8035</item>
+        <item>8036 - EVARISTO PIÑON ARIAS EX N° 17 BIS</item>
+        <item>8037 - INST. DOCTOR FACUNDO DE ZUVIRIA N° 8037</item>
+        <item>8038 - FACUNDO QUIROGA</item>
+        <item>8040 - INST. GENERAL GUEMES EX N° 14</item>
+        <item>8043 - BACHILLERATO HUMANISTA MODERNO</item>
+        <item>8046 - INST. EDUCATIVO INTI EX N° 125 BIS</item>
+        <item>8047 - JACQUES YVES COUSTEAU</item>
+        <item>8048 - INST. JEAN PIAGET EX N° 43 BIS</item>
+        <item>8049 - COL. DE JESUS EX N° 53</item>
+        <item>8050 - JOSE MANUEL ESTRADA EX N°32 BIS</item>
+        <item>8052 - JUAN XXIII H.I.R.PA.CE. EX N°19 BIS</item>
+        <item>8053 - INST. LA INMACULADA EX N° 33</item>
+        <item>8054 - INST. LAURA VICUÑA</item>
+        <item>8055 - INST. LICEO CULTURAL DOCENTE</item>
+        <item>8058 - INST. SUPERIOR EN CIENCIAS DE LA SALUD LUIS PASTEUR</item>
+        <item>8060 - INST. MADRE MARIA SARA LONA</item>
+        <item>8062 - COL. MARIA AUXILIADORA EX N° 49</item>
+        <item>8063 - INST. PRIVADO MARIA DEL ROSARIO DE SAN NICOLAS</item>
+        <item>8065 - ESC. PARROQUIAL MARTIN FIERRO EX N°27 BIS</item>
+        <item>8067 - INST. MODELO DE ENSEÑANZA PRIMARIA EX N° 60 BIS</item>
+        <item>8069 - ESC. PARROQUIAL MILAGROSO NIÑO JESUS DE PRAGA</item>
+        <item>8071 - COL. NUESTRA SEÑORA DEL HUERTO EX N° 51</item>
+        <item>8073 - ESC. PARROQUIAL NTRA.SRA.DE LA CANDELARIA EX N° 26 BIS</item>
+        <item>8077 - INST. PABLO NERUDA</item>
+        <item>8078 - INST. PADRE GABRIEL TOMMASINI EX N° 18</item>
+        <item>8079 - ESC. PARROQUIAL NUESTRA SEÑORA DE LA MERCED</item>
+        <item>8082 - INST.EDUC. PERITO FRANCISCO MORENO EX N° 83 BIS</item>
+        <item>8083 - DOCTOR RAUL GOYTIA EX N° 11 BIS</item>
+        <item>8084 - INST. ROSARIO DE LERMA EX L 15</item>
+        <item>8086 - PATRICK DRAGON SCHOOL</item>
+        <item>8087 - INST. SAN AGUSTIN EX N°54 BIS</item>
+        <item>8088 - ESC. PARROQUIAL SAN ALFONSO EX N° 2 BIS</item>
+        <item>8092 - INST. SAN CAYETANO</item>
+        <item>8095 - SAN FRANCISCO DE ASIS EX N° 38</item>
+        <item>8100 - COL. SAN JOSE EX N° 32</item>
+        <item>8103 - COL. SAN JUAN BAUTISTA</item>
+        <item>8105 - INST. COL. SAN LUCAS EX N° 95 BIS</item>
+        <item>8106 - COL. PRIVADO SAN MARCOS EX N°34 BIS</item>
+        <item>8109 - INST. SAN NICOLAS EX N° 24 BIS</item>
+        <item>8110 - COL. SAN PABLO EX N°21 BIS</item>
+        <item>8112 - COL. SAN RAFAEL ARCANGEL EX N° 109 BIS</item>
+        <item>8115 - COL. SANTA MARIA EX N° 79 BIS</item>
+        <item>8116 - COL. SANTA TERESA DE JESUS</item>
+        <item>8117 - COL. SANTO TOMAS DE AQUINO</item>
+        <item>8118 - INST. SEMINARIO METROPOLITANO EX N° 19</item>
+        <item>8120 - COL. SANTA ISABEL DE HUNGRIA EX N° 52</item>
+        <item>8121 - SANTA MARIA DEL ROSARIO EX 13 BIS</item>
+        <item>8122 - INST. SANTA ROSA DE VITERBO EX N° 54</item>
+        <item>8124 - PROFESORADO DE CIENCIAS SAGRADAS MONSEÑOR TAVELLA EX L-38</item>
+        <item>8125 - INST. TIMOTEO EX N° 121 BIS</item>
+        <item>8127 - INST. VELEZ SARSFIELD EX N°100 BIS</item>
+        <item>8128 - INST. VERBUM EX N°39 BIS</item>
+        <item>8129 - CENTRO DE ESTUDIO A DISTANCIA DE SALTA - C.E.D.SA.</item>
+        <item>8131 - LA CASA DE LOS NIÑOS</item>
+        <item>8132 - COLIBRI-ASOC.SALTEÑA SINDROME DE DOWN</item>
+        <item>8135 - A.P.A.D.I. "ASOCIACION DE PADRES Y AMIGOS DEL DESCAPACITADO"</item>
+        <item>8136 - LA SAGRADA FAMILIA EX N°17</item>
+        <item>8138 - INST. EDUCATIVO GIFTED CHILDREN</item>
+        <item>8142 - INST. ASOCIACION DE PADRES Y NIÑOS AUTISTAS Y PSICOTICOS</item>
+        <item>8143 - INST. PARA LA REHABILITACION DEL DISCAPACITADO I.N.P.R.E.D.</item>
+        <item>8144 - LA ESTRELLA Centro de Estimulación Temprana y Educación Inicial para niños con Síndrome de Down</item>
+        <item>8145 - CENTRO EDUC. ESPECIAL SPES (ESPERANZA -</item>
+        <item>8147 - CENTRO DE CAPACITACION LABORAL PARROQUIA ESPIRITU SANTO</item>
+        <item>8152 - COL. MADRE TERESA DE CALCUTA</item>
+        <item>8155 - INST. SUPERIOR DE FORMACION PROFESIONAL LA MERCED</item>
+        <item>8165 - INST.SUP.DE FORMACION Y CAPACITACION DOCTOR RAMON CARRILLO</item>
+        <item>8171 - CENTRO EDUCATIVO FE Y ALEGRIA</item>
+        <item>8172 - COL. MAGNUS Nº 8172</item>
+        <item>8180 - S.A.C.R.A.-FILIAL SALTA</item>
+        <item>8181 - INST. DE ESEÑANZA SUPERIOR JOSE ORTEGA Y GASSET</item>
+        <item>8182 - INST. FUNDACION FUNDACER</item>
+        <item>8185 - IS.MO.DE. "NUESTRA SEÑORA DEL VALLE"</item>
+        <item>8187 - UZZI COLLEGE</item>
+        <item>8191 - INST. DE FORM. Y CAPAC. DOCTOR EMILIO CASTRO BOEDO</item>
+        <item>8194 - INST. HUMANISTA DE LA SANTISIMA TRINIDAD Nº 8194</item>
+        <item>8195 - INST. DE FORMACION DOCENTE FRANKLIN</item>
+        <item>8198 - ADANA - ESC. EDUC. ESPECIAL</item>
+        <item>8199 - COL. Superior San Pedro</item>
+        <item>8204 - COL. ITALO ARGENTINO BILINGUE BICULTURAL" DANTE ALIGHIERI"</item>
+        <item>8207 - INST. SUPERIOR DEL MILAGRO</item>
+        <item>8208 - ESC. DE GASTRONOMIA "SALAMANCA"</item>
+        <item>8209 - ESC. INTERNAC. DE ADMINISTRACIÓN HOTELERA Y TURISTICA VATEL</item>
+        <item>8211 - ESC. ARGENTINA DE FORMACION PROFESIONAL</item>
+        <item>8212 - INST. PARA EL DESARROLLO HUMANO "PADRE ERNESTO MARTEARENA"</item>
+        <item>8213 - INST. DE MANUALIDADES MANUELA MARTINEZ DE CANGAS Y TINEO</item>
+        <item>8214 - COL. SEC. DE MONTAÑA EL ALFARCITO</item>
+        <item>8215 - INST. BICENTENARIO - MARIA REINA</item>
+        <item>8217 - ESC. EDUC. ESPECIAL "AYUDAME A CRECER"</item>
+        <item>8218 - JARDIN SANTA CLARA N° 8218</item>
+        <item>8220 - LÚDERE COLLEGE EX APRENDIJUEGOS</item>
+        <item>8221 - Complejo Educativo "Valle de Lerma"</item>
+        <item>8222 - INST. de Educación Superior "Andres Bello"</item>
+        <item>8225 - INST. "SAN ANDRES" Nº 8225</item>
+        <item>8227 - ESC. TAI</item>
+        <item>8228 - COL. SAN ISIDRO</item>
+        <item>8229 - COL. SAGRADO CORAZÓN LUZ Y GUÍA</item>
+        <item>8230 - COL. SANTO TOMÁS DE VILLANUEVA</item>
+        <item>8232 - INST. SUPERIOR DE EDUCACIÓN PROFESIONAL ISEP N°8232</item>
+        <item>9002 - SISTEMA VIRTUAL DE FORMACION A DISTANCIA</item>
+        <item>9003 - ESTABLECIMIENTO "POLO DE REINGRESO" Nº 9003</item>
+        <item>9004 - Centro de Educación Integral para Adolescentes y Jóvenes con Discapacidad Nº 9004</item>
+        <item>5027-01 - ANEXO - COL. SEC. GRAL.JOSE DE SAN MARTIN EX Nº24</item>
+        <item>5071-01 - ANEXO "COL. SEC. JUAN CARLOS SARAVIA"</item>
+        <item>7068-01 - B.S.P.A. Nº 7068-01 - ANEXO LOS PINARES</item>
+        <item>7141-01 - INST. ESPECIAL - ESC. DE AJEDREZ</item>
+        <item>8165-02 - INST. SUPERIOR DR.RAMON CARRILLO -ANEXO ROSARIO DE LERMA</item>
+        <item>8180-01 - CENTRO DE DIA (S.A.C.R.A. - FILIAL SAN LUIS -</item>
+        <item>8180-02 - CENTRO EDUCATIVO TERAPEUTICO SACRA - JORNADA DOBLE - FILIAL CAMPO QUIJANO</item>
+    </string-array>
+</resources>

@@ -1,0 +1,111 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/contenedor_preview_photo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/transparente">
+
+    <com.isseiaoki.simplecropview.CropImageView
+        xmlns:custom="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/multimedia_preview_photo_preview"
+        android:layout_weight="1"
+        android:paddingTop="66dp"
+        android:paddingBottom="80dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        custom:scv_crop_mode="free"
+        custom:scv_background_color="@color/bg_app"
+        custom:scv_handle_color="@color/colorPrimary"
+        custom:scv_guide_color="@color/colorPrimary"
+        custom:scv_overlay_color="@color/bg_app"
+        custom:scv_frame_color="@color/colorPrimary"
+        custom:scv_handle_size="14dp"
+        custom:scv_touch_padding="8dp"
+        custom:scv_handle_show_mode="show_always"
+        custom:scv_guide_show_mode="show_on_touch"
+        custom:scv_min_frame_size="50dp"
+        custom:scv_frame_stroke_weight="1dp"
+        custom:scv_guide_stroke_weight="1dp"/>
+
+    <ImageButton
+        android:id="@+id/multimedia_preview_photo_button_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="6dp"
+        android:scaleType="fitXY"
+        android:layout_margin="5dp"
+        android:src="@drawable/ic_action_arrow_back"
+        android:background="@null"/>
+
+    <RelativeLayout
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="6dp">
+
+        <ImageButton
+            android:id="@+id/multimedia_preview_photo_rotate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_action_rotate_right"
+            android:background="@null"
+            android:scaleType="fitXY"
+            android:layout_margin="5dp"
+            android:layout_toRightOf="@+id/multimedia_preview_photo_crop"/>
+
+        <ImageButton
+            android:id="@+id/multimedia_preview_photo_crop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_action_crop"
+            android:background="@null"
+            android:scaleType="fitXY"
+            android:layout_margin="5dp"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/content_message"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/bg_app"
+        android:weightSum="1"
+        android:orientation="horizontal">
+
+        <ImageButton
+           android:layout_marginRight="3dp"
+           android:layout_marginLeft="3dp"
+            android:layout_weight="0.5"
+            android:id="@+id/btn_cancelar"
+            android:layout_marginTop="-45dp"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:background="@drawable/button_bg_rounded_corner"
+            android:fontFamily="@font/opensans_semibold"
+            android:textColor="@color/white"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:src="@drawable/ic_clear_white"
+            android:layout_gravity="center_horizontal"/>
+        <ImageButton
+            android:layout_marginRight="3dp"
+            android:layout_marginLeft="3dp"
+            android:layout_weight="0.5"
+            android:id="@+id/btn_aceptar"
+            android:layout_marginTop="-45dp"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:background="@drawable/button_bg_rounded_corner"
+            android:fontFamily="@font/opensans_semibold"
+            android:textColor="@color/white"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:src="@drawable/ic_check_white"
+            android:layout_gravity="center_horizontal"/>
+    </LinearLayout>
+
+
+</RelativeLayout>

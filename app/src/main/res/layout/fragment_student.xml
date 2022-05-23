@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scroll_student"
+    android:animateLayoutChanges="true"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context=".ui.newstudent.NewStudent">
+        <include android:id="@+id/coursedata"  layout="@layout/course_card_view"/>
+        <include android:id="@+id/peopledata"  layout="@layout/person_data_card_view" android:visibility="gone"/>
+        <include android:id="@+id/placebirth"  layout="@layout/place_birth_data_card_view" android:visibility="gone"/>
+        <include android:id="@+id/contactdata"  layout="@layout/contact_data_card_view" android:visibility="gone"/>
+        <include android:id="@+id/otherdata"  layout="@layout/other_data_card_view" android:visibility="gone"/>
+        <include android:id="@+id/docdata"  layout="@layout/documentation_card_view" android:visibility="gone"/>
+        <include android:id="@+id/photodata"  layout="@layout/document_photo_card_view" android:visibility="gone"/>
+        <include android:id="@+id/paymentdata"  layout="@layout/payment_card_view" android:visibility="gone"/>
+    </LinearLayout>
+</ScrollView>
+
+

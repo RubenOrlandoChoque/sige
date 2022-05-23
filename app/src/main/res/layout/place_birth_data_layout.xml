@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/input_layout_country_birth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_toLeftOf="@+id/copy_country_birth"
+            android:layout_toStartOf="@+id/copy_country_birth">
+
+            <AutoCompleteTextView
+                android:id="@+id/input_country_birth"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:inputType="textCapCharacters"
+                android:imeOptions="actionNext"
+                android:hint="País de Nacimiento" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <ImageButton
+            android:foregroundGravity="center"
+            android:src="@drawable/ic_baseline_location"
+            android:layout_alignParentRight="true"
+            android:id="@+id/copy_country_birth"
+            android:background="@drawable/button_bg_rounded_corner"
+            android:textColor="@color/white"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:layout_height="50dp"
+            android:layout_width="wrap_content"
+            android:contentDescription="copy"
+
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/input_layout_province_birth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_toLeftOf="@+id/copy_province_birth"
+            android:layout_toStartOf="@+id/copy_province_birth">
+
+            <AutoCompleteTextView
+                android:id="@+id/input_province_birth"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:inputType="textCapCharacters"
+                android:imeOptions="actionNext"
+                android:hint="Provincia de Nacimiento" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <ImageButton
+            android:foregroundGravity="center"
+            android:src="@drawable/ic_baseline_location"
+            android:layout_alignParentRight="true"
+            android:id="@+id/copy_province_birth"
+            android:background="@drawable/button_bg_rounded_corner"
+            android:textColor="@color/white"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:layout_height="50dp"
+            android:layout_width="wrap_content"
+            android:contentDescription="copy"
+
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/input_layout_department_birth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_toLeftOf="@+id/copy_department_birth"
+            android:layout_toStartOf="@+id/copy_department_birth">
+
+            <AutoCompleteTextView
+                android:id="@+id/input_department_birth"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:inputType="textCapCharacters"
+                android:imeOptions="actionNext"
+                android:hint="Departamento de Nacimiento" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <ImageButton
+            android:foregroundGravity="center"
+            android:src="@drawable/ic_baseline_location"
+            android:layout_alignParentRight="true"
+            android:id="@+id/copy_department_birth"
+            android:background="@drawable/button_bg_rounded_corner"
+            android:textColor="@color/white"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:layout_height="50dp"
+            android:layout_width="wrap_content"
+            android:contentDescription="copy"
+
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/input_layout_location_birth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_toLeftOf="@+id/copy_location_birth"
+            android:layout_toStartOf="@+id/copy_location_birth">
+
+            <AutoCompleteTextView
+                android:id="@+id/input_location_birth"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:imeOptions="actionNext"
+                android:maxLines="1"
+                android:inputType="textCapCharacters"
+                android:hint="Localidad de Nacimiento" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <ImageButton
+            android:foregroundGravity="center"
+            android:src="@drawable/ic_baseline_location"
+            android:layout_alignParentRight="true"
+            android:id="@+id/copy_location_birth"
+            android:background="@drawable/button_bg_rounded_corner"
+            android:textColor="@color/white"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:layout_height="50dp"
+            android:layout_width="wrap_content"
+            android:contentDescription="copy"
+
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</LinearLayout>

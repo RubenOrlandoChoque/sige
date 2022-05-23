@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Curso" />
+
+    <lib.kingja.switchbutton.SwitchMultiButton
+        android:id="@+id/curso_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="14dp"
+        app:selectedColor="@color/colorPrimaryDark"
+        app:selectedTab="0"
+        app:strokeRadius="5dp"
+        app:strokeWidth="1dp"
+        app:textSize="14sp" />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lbl_division"
+        android:visibility="gone"
+        android:hint="División" />
+    <lib.kingja.switchbutton.SwitchMultiButton
+        android:id="@+id/division_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="14dp"
+        app:selectedColor="@color/colorPrimaryDark"
+        app:selectedTab="0"
+        app:strokeRadius="5dp"
+        app:strokeWidth="1dp"
+        app:textSize="14sp" />
+    <TextView
+        android:textSize="14sp"
+        android:paddingBottom="14dp"
+        android:paddingTop="14dp"
+        android:paddingLeft="12dp"
+        android:paddingRight="14dp"
+        android:textColor="@color/white"
+        android:background="@drawable/rounded_sel"
+        android:text="1° 1°"
+        android:id="@+id/unique_division"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Condición" />
+
+    <lib.kingja.switchbutton.SwitchMultiButton
+        android:id="@+id/condition_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="14dp"
+        app:selectedColor="@color/colorPrimaryDark"
+        app:strokeRadius="5dp"
+        app:strokeWidth="1dp"
+        app:textSize="14sp" />
+
+</LinearLayout>

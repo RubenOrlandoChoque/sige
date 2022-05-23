@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+
+    <color name="colorPrimary">#00ACC1</color>
+    <color name="colorPrimaryDark">#0097A7</color>
+    <color name="colorPrimaryLight">#B3E5FC</color>
+    <color name="colorAccent">#0097A7</color>
+
+    <color name="bgapp">#0097A7</color>
+
+    <color name="actionbar_opacity">#33000000</color>
+    <color name="buttonLabel">#d3d3d3</color>
+
+    <color name="lightbutton_text_color">#9d9e9e</color>
+    <color name="light_button">#E0F7FA</color>
+    <color name="light_button_pressed">#B2EBF2</color>
+
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+
+    <color name="transparente">#02D31717</color>
+
+    <color name="bg_app">#2e2d36</color>
+
+    <color name="yellow">#00BCD4</color>
+    <color name="orange">#0097A7</color>
+
+    <color name="gray_dark">#3e3e3e</color>
+    <color name="silver">#e6e6e6</color>
+
+    <color name="pf_grey">#262626</color>
+    <color name="pf_grey_light">#999999</color>
+    <color name="background_phone">#FFECFCFD</color>
+</resources>

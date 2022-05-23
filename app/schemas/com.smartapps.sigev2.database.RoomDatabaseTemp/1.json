@@ -1,0 +1,624 @@
+{
+  "formatVersion": 1,
+  "database": {
+    "version": 1,
+    "identityHash": "b83551db825d1ec9a64eddd2683ec18a",
+    "entities": [
+      {
+        "tableName": "Divisions",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`Id` INTEGER NOT NULL, `DivisionName` TEXT, `CourseYearId` INTEGER NOT NULL, `SchoolYearId` INTEGER NOT NULL, `ShiftId` INTEGER NOT NULL, PRIMARY KEY(`Id`))",
+        "fields": [
+          {
+            "fieldPath": "Id",
+            "columnName": "Id",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "DivisionName",
+            "columnName": "DivisionName",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "CourseYearId",
+            "columnName": "CourseYearId",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "SchoolYearId",
+            "columnName": "SchoolYearId",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "ShiftId",
+            "columnName": "ShiftId",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "columnNames": [
+            "Id"
+          ],
+          "autoGenerate": false
+        },
+        "indices": [],
+        "foreignKeys": []
+      },
+      {
+        "tableName": "People",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`Id` TEXT NOT NULL, `FirstName` TEXT, `LastName` TEXT, `DocumentTypeId` INTEGER NOT NULL, `DocumentNumber` TEXT, `MobilePhoneNumber` TEXT, `PhoneNumber` TEXT, `AnotherContactPhone` TEXT, `Birthdate` TEXT, `Photo` TEXT, `PersonGenderId` INTEGER NOT NULL, `Address` TEXT, `Nationality` TEXT, `BelongsEthnicGroup` INTEGER NOT NULL, `EthnicName` TEXT, `HasHealthProblems` INTEGER NOT NULL, `DescriptionHealthProblems` TEXT, `HasLegalProblems` INTEGER NOT NULL, `DescriptionLegalProblems` TEXT, `Location` TEXT, `ScannerResult` TEXT, `CountryBirth` TEXT, `ProvinceBirth` TEXT, `DepartmentBirth` TEXT, `LocationBirth` TEXT, `PhoneType1` TEXT, `PhoneType2` TEXT, `PhoneType3` TEXT, `Mail` TEXT, PRIMARY KEY(`Id`))",
+        "fields": [
+          {
+            "fieldPath": "Id",
+            "columnName": "Id",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "FirstName",
+            "columnName": "FirstName",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "LastName",
+            "columnName": "LastName",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "DocumentTypeId",
+            "columnName": "DocumentTypeId",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "DocumentNumber",
+            "columnName": "DocumentNumber",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "MobilePhoneNumber",
+            "columnName": "MobilePhoneNumber",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "PhoneNumber",
+            "columnName": "PhoneNumber",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "AnotherContactPhone",
+            "columnName": "AnotherContactPhone",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "Birthdate",
+            "columnName": "Birthdate",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "Photo",
+            "columnName": "Photo",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "PersonGenderId",
+            "columnName": "PersonGenderId",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "Address",
+            "columnName": "Address",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "Nationality",
+            "columnName": "Nationality",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "BelongsEthnicGroup",
+            "columnName": "BelongsEthnicGroup",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "EthnicName",
+            "columnName": "EthnicName",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "HasHealthProblems",
+            "columnName": "HasHealthProblems",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "DescriptionHealthProblems",
+            "columnName": "DescriptionHealthProblems",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "HasLegalProblems",
+            "columnName": "HasLegalProblems",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "DescriptionLegalProblems",
+            "columnName": "DescriptionLegalProblems",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "Location",
+            "columnName": "Location",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "ScannerResult",
+            "columnName": "ScannerResult",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "CountryBirth",
+            "columnName": "CountryBirth",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "ProvinceBirth",
+            "columnName": "ProvinceBirth",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "DepartmentBirth",
+            "columnName": "DepartmentBirth",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "LocationBirth",
+            "columnName": "LocationBirth",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "PhoneType1",
+            "columnName": "PhoneType1",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "PhoneType2",
+            "columnName": "PhoneType2",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "PhoneType3",
+            "columnName": "PhoneType3",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "Mail",
+            "columnName": "Mail",
+            "affinity": "TEXT",
+            "notNull": false
+          }
+        ],
+        "primaryKey": {
+          "columnNames": [
+            "Id"
+          ],
+          "autoGenerate": false
+        },
+        "indices": [],
+        "foreignKeys": []
+      },
+      {
+        "tableName": "Students",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`Id` TEXT NOT NULL, `HasBrothersOfSchoolAge` INTEGER NOT NULL, `IdCardFront` TEXT, `IdCardBack` TEXT, `IdImgProfile` TEXT, `Sync` INTEGER NOT NULL, `SyncCardFront` INTEGER NOT NULL, `SyncCardBack` INTEGER NOT NULL, `SyncImgProfile` INTEGER NOT NULL, `Observation` TEXT, `SchoolOrigin` TEXT, `OtherPhoneBelongs` TEXT, `PhoneBelongs1` TEXT, `PhoneBelongs2` TEXT, `HighestEducLevelFatherId` INTEGER NOT NULL, `HighestEducLevelMotherId` INTEGER NOT NULL, `ConditionId` INTEGER NOT NULL, PRIMARY KEY(`Id`), FOREIGN KEY(`Id`) REFERENCES `People`(`Id`) ON UPDATE NO ACTION ON DELETE NO ACTION )",
+        "fields": [
+          {
+            "fieldPath": "Id",
+            "columnName": "Id",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "HasBrothersOfSchoolAge",
+            "columnName": "HasBrothersOfSchoolAge",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "IdCardFront",
+            "columnName": "IdCardFront",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "IdCardBack",
+            "columnName": "IdCardBack",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "IdImgProfile",
+            "columnName": "IdImgProfile",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "Sync",
+            "columnName": "Sync",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "SyncCardFront",
+            "columnName": "SyncCardFront",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "SyncCardBack",
+            "columnName": "SyncCardBack",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "SyncImgProfile",
+            "columnName": "SyncImgProfile",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "Observation",
+            "columnName": "Observation",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "SchoolOrigin",
+            "columnName": "SchoolOrigin",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "OtherPhoneBelongs",
+            "columnName": "OtherPhoneBelongs",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "PhoneBelongs1",
+            "columnName": "PhoneBelongs1",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "PhoneBelongs2",
+            "columnName": "PhoneBelongs2",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "HighestEducLevelFatherId",
+            "columnName": "HighestEducLevelFatherId",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "HighestEducLevelMotherId",
+            "columnName": "HighestEducLevelMotherId",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "ConditionId",
+            "columnName": "ConditionId",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "columnNames": [
+            "Id"
+          ],
+          "autoGenerate": false
+        },
+        "indices": [],
+        "foreignKeys": [
+          {
+            "table": "People",
+            "onDelete": "NO ACTION",
+            "onUpdate": "NO ACTION",
+            "columns": [
+              "Id"
+            ],
+            "referencedColumns": [
+              "Id"
+            ]
+          }
+        ]
+      },
+      {
+        "tableName": "StudentDivisions",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`StudentId` TEXT NOT NULL, `DivisionId` INTEGER NOT NULL, `currentDivision` INTEGER NOT NULL, PRIMARY KEY(`StudentId`, `DivisionId`))",
+        "fields": [
+          {
+            "fieldPath": "StudentId",
+            "columnName": "StudentId",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "DivisionId",
+            "columnName": "DivisionId",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "currentDivision",
+            "columnName": "currentDivision",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "columnNames": [
+            "StudentId",
+            "DivisionId"
+          ],
+          "autoGenerate": false
+        },
+        "indices": [],
+        "foreignKeys": []
+      },
+      {
+        "tableName": "Tutors",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`Id` TEXT NOT NULL, `Sync` INTEGER NOT NULL, `Ocupation` TEXT, PRIMARY KEY(`Id`), FOREIGN KEY(`Id`) REFERENCES `People`(`Id`) ON UPDATE NO ACTION ON DELETE NO ACTION )",
+        "fields": [
+          {
+            "fieldPath": "Id",
+            "columnName": "Id",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "Sync",
+            "columnName": "Sync",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "Ocupation",
+            "columnName": "Ocupation",
+            "affinity": "TEXT",
+            "notNull": false
+          }
+        ],
+        "primaryKey": {
+          "columnNames": [
+            "Id"
+          ],
+          "autoGenerate": false
+        },
+        "indices": [],
+        "foreignKeys": [
+          {
+            "table": "People",
+            "onDelete": "NO ACTION",
+            "onUpdate": "NO ACTION",
+            "columns": [
+              "Id"
+            ],
+            "referencedColumns": [
+              "Id"
+            ]
+          }
+        ]
+      },
+      {
+        "tableName": "TutorStudents",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`TutorId` TEXT NOT NULL, `StudentId` TEXT NOT NULL, `RelationshipId` INTEGER NOT NULL, `CurrentTutor` INTEGER NOT NULL, PRIMARY KEY(`TutorId`, `StudentId`), FOREIGN KEY(`StudentId`) REFERENCES `Students`(`Id`) ON UPDATE NO ACTION ON DELETE NO ACTION , FOREIGN KEY(`TutorId`) REFERENCES `Tutors`(`Id`) ON UPDATE NO ACTION ON DELETE NO ACTION )",
+        "fields": [
+          {
+            "fieldPath": "TutorId",
+            "columnName": "TutorId",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "StudentId",
+            "columnName": "StudentId",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "RelationshipId",
+            "columnName": "RelationshipId",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "CurrentTutor",
+            "columnName": "CurrentTutor",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "columnNames": [
+            "TutorId",
+            "StudentId"
+          ],
+          "autoGenerate": false
+        },
+        "indices": [
+          {
+            "name": "index_TutorStudents_StudentId",
+            "unique": false,
+            "columnNames": [
+              "StudentId"
+            ],
+            "createSql": "CREATE  INDEX `index_TutorStudents_StudentId` ON `${TABLE_NAME}` (`StudentId`)"
+          },
+          {
+            "name": "index_TutorStudents_RelationshipId",
+            "unique": false,
+            "columnNames": [
+              "RelationshipId"
+            ],
+            "createSql": "CREATE  INDEX `index_TutorStudents_RelationshipId` ON `${TABLE_NAME}` (`RelationshipId`)"
+          }
+        ],
+        "foreignKeys": [
+          {
+            "table": "Students",
+            "onDelete": "NO ACTION",
+            "onUpdate": "NO ACTION",
+            "columns": [
+              "StudentId"
+            ],
+            "referencedColumns": [
+              "Id"
+            ]
+          },
+          {
+            "table": "Tutors",
+            "onDelete": "NO ACTION",
+            "onUpdate": "NO ACTION",
+            "columns": [
+              "TutorId"
+            ],
+            "referencedColumns": [
+              "Id"
+            ]
+          }
+        ]
+      },
+      {
+        "tableName": "StudentDocumentations",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`StudentId` TEXT NOT NULL, `DocumentationId` INTEGER NOT NULL, `SchoolYearId` INTEGER NOT NULL, PRIMARY KEY(`StudentId`, `DocumentationId`))",
+        "fields": [
+          {
+            "fieldPath": "StudentId",
+            "columnName": "StudentId",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "DocumentationId",
+            "columnName": "DocumentationId",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "SchoolYearId",
+            "columnName": "SchoolYearId",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "columnNames": [
+            "StudentId",
+            "DocumentationId"
+          ],
+          "autoGenerate": false
+        },
+        "indices": [],
+        "foreignKeys": []
+      },
+      {
+        "tableName": "Payments",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`Id` TEXT NOT NULL, `StudentId` TEXT NOT NULL, `PaymentConceptId` INTEGER NOT NULL, `SchoolYearId` INTEGER NOT NULL, `Date` TEXT, `Amount` REAL, PRIMARY KEY(`Id`), FOREIGN KEY(`StudentId`) REFERENCES `Students`(`Id`) ON UPDATE NO ACTION ON DELETE NO ACTION )",
+        "fields": [
+          {
+            "fieldPath": "Id",
+            "columnName": "Id",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "StudentId",
+            "columnName": "StudentId",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "PaymentConceptId",
+            "columnName": "PaymentConceptId",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "SchoolYearId",
+            "columnName": "SchoolYearId",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "Date",
+            "columnName": "Date",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "Amount",
+            "columnName": "Amount",
+            "affinity": "REAL",
+            "notNull": false
+          }
+        ],
+        "primaryKey": {
+          "columnNames": [
+            "Id"
+          ],
+          "autoGenerate": false
+        },
+        "indices": [],
+        "foreignKeys": [
+          {
+            "table": "Students",
+            "onDelete": "NO ACTION",
+            "onUpdate": "NO ACTION",
+            "columns": [
+              "StudentId"
+            ],
+            "referencedColumns": [
+              "Id"
+            ]
+          }
+        ]
+      }
+    ],
+    "setupQueries": [
+      "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, \"b83551db825d1ec9a64eddd2683ec18a\")"
+    ]
+  }
+}

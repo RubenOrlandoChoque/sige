@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:ndroid="http://schemas.android.com/tools">
+
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Foto Anverso DNI" />
+    <RelativeLayout
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center">
+        <ImageView
+            android:id="@+id/img_anverso_dni"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/ic_launcher_background"
+            android:scaleType="centerCrop"
+            android:background="@null"/>
+        <!--<ImageButton-->
+        <!--android:id="@+id/img_remove_anverso_dni"-->
+        <!--android:layout_width="40dp"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:background="@drawable/ic_cancel_red"-->
+        <!--android:layout_height="40dp"/>-->
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/img_add_anverso_dni"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pnl_dc_photos"
+        android:layout_gravity="center"
+        android:clickable="true"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:src="@drawable/ic_baseline_camera_alt_60"
+            ndroid:layout_gravity="center"/>
+
+        <!--<com.github.johnkil.print.PrintView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            app:iconSize="40dp"
+            app:iconColor="@color/colorPrimary"
+            app:iconFont="font/material_icon_font.ttf"
+            app:iconText="@string/ic_camera_alt" />-->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Subir Foto"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Foto Reverso DNI" />
+    <RelativeLayout
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:id="@+id/img_reverso_dni"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="@null"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_launcher_background" />
+        <!--<ImageButton-->
+        <!--android:id="@+id/img_remove_revero_dni"-->
+        <!--android:layout_width="40dp"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:background="@drawable/ic_cancel_red"-->
+        <!--android:layout_height="40dp"/>-->
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/img_add_reverso_dni"
+        android:layout_gravity="center"
+        android:clickable="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/pnl_dc_photos">
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:src="@drawable/ic_baseline_camera_alt_60"
+            ndroid:layout_gravity="center"/>
+
+        <!--<com.github.johnkil.print.PrintView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            app:iconSize="40dp"
+            app:iconColor="@color/colorPrimary"
+            app:iconFont="font/material_icon_font.ttf"
+            app:iconText="@string/ic_camera_alt" />-->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Subir Foto"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+</LinearLayout>
